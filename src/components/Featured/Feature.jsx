@@ -16,7 +16,7 @@ const Feature = ({ feature }) => {
   } = feature;
 
   return (
-    <div className="bg-white rounded-t-lg space-y-4 p-5 lg:px-16 lg:py-10">
+    <div className="bg-white rounded-lg space-y-4 p-5 lg:px-16 lg:py-10">
       <img className="w-24 object-cover" src={logo} alt={job_title} />
       <h3 className="text-[#474747] font-extrabold text-2xl">{job_title}</h3>
       <h4 className="text-[#757575] font-semibold text-xl">{company_name}</h4>

@@ -25,4 +25,4 @@ const saveStorage = (obj) => {
   return toast.error("Already Applied.");
 };
 
-export { saveStorage, getStorage };
+export { getStorage, saveStorage };
