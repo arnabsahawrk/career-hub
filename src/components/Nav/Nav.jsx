@@ -1,17 +1,40 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { RiMenuSearchLine } from "react-icons/ri";
 
 const Nav = () => {
   const links = (
     <>
       <li>
-        <Link>Home</Link>
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            `hover:bg-transparent ${isActive ? "text-info" : "text-[#757575]"}`
+          }
+        >
+          Home
+        </NavLink>
       </li>
+
       <li>
-        <Link>Applied Jobs</Link>
+        <NavLink
+          to="/app"
+          className={({ isActive }) =>
+            `hover:bg-transparent ${isActive ? "text-info" : "text-[#757575]"}`
+          }
+        >
+          Applied Jobs
+        </NavLink>
       </li>
+
       <li>
-        <Link>Blogs</Link>
+        <NavLink
+          to="/appl"
+          className={({ isActive }) =>
+            `hover:bg-transparent ${isActive ? "text-info" : "text-[#757575]"}`
+          }
+        >
+          Blogs
+        </NavLink>
       </li>
     </>
   );
@@ -28,7 +51,7 @@ const Nav = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 gap-4 text-[#757575] font-bold text-base"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 gap-4 font-bold text-base"
           >
             {links}
           </ul>
@@ -42,7 +65,7 @@ const Nav = () => {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-10 text-[#757575] font-bold text-base">
+        <ul className="menu menu-horizontal px-1 gap-10 font-bold text-base">
           {links}
         </ul>
       </div>
