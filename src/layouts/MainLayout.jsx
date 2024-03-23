@@ -15,7 +15,7 @@ const MainLayout = () => {
         <Nav />
       </header>
       <main
-        className="container mx-auto px-4 md:px-12 lg:px-24 py-4 text-pretty"
+        className="container mx-auto px-4 md:px-12 lg:px-24 py-4 text-pretty space-y-4"
         style={{
           background:
             "linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%)",
