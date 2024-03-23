@@ -1,9 +1,11 @@
 import PropTypes from "prop-types";
 import { GoLocation } from "react-icons/go";
 import { CiDollar } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const Feature = ({ feature }) => {
   const {
+    id,
     logo,
     job_title,
     company_name,
@@ -48,7 +50,9 @@ const Feature = ({ feature }) => {
           Salary: {salary}
         </li>
       </ul>
-      <button className="btn btn-info text-white">View Details</button>
+      <Link to={`jobDetails/${id}`} className="btn btn-info text-white">
+        View Details
+      </Link>
     </div>
   );
 };

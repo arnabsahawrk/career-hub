@@ -2,77 +2,77 @@
   {
     "id": 1,
     "logo": "https://i.postimg.cc/T1LBHyRp/airbnb.png",
-    "job_title": "Technical Database Engineer",
+    "job_title": "Data Scientist",
     "company_name": "Airbnb",
     "remote_or_onsite": "Remote",
-    "location": "Dhaka, Bangladesh",
-    "job_type": "Full Time",
-    "salary": "60k-120k",
-    "job_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-    "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-    "educational_requirements": "Bachelor degree to complete any reputation university.",
-    "experiences": "2-3 Years in this field.",
+    "location": "Los Angeles, USA",
+    "job_type": "Onsite",
+    "salary": "80k-150k",
+    "job_description": "A Data Scientist is responsible for analyzing complex datasets to provide insights and solutions to business problems. They use statistical techniques and machine learning algorithms to extract valuable information from data.",
+    "job_responsibility": "Collaborating with cross-functional teams: Data Scientists often work closely with other teams, including product management, engineering, and marketing, to develop data-driven solutions. They conduct experiments, build predictive models, and communicate findings to stakeholders.",
+    "educational_requirements": "Master's degree in Computer Science, Statistics, or a related field.",
+    "experiences": "3-5 Years in Data Science.",
     "contact_information": {
-      "phone": "01750-00 00 00",
-      "email": "info@gmail.com",
-      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+      "phone": "123-456-7890",
+      "email": "info@airbnb.com",
+      "address": "123 Main St, Los Angeles, USA"
     }
   },
   {
     "id": 2,
     "logo": "https://i.postimg.cc/T1rbT90m/netflix.png",
-    "job_title": "Senior Product Designer",
+    "job_title": "Software Engineer",
     "company_name": "Netflix",
     "remote_or_onsite": "Onsite",
-    "location": "Dhaka, Bangladesh",
+    "location": "San Francisco, USA",
     "job_type": "Full Time",
-    "salary": "80k-100k",
-    "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-    "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-    "educational_requirements": "Bachelor degree to complete any reputation university.",
-    "experiences": "2-3 Years in this field.",
+    "salary": "120k-200k",
+    "job_description": "A Software Engineer is responsible for designing, developing, and maintaining software applications. They collaborate with product managers and designers to deliver high-quality software solutions.",
+    "job_responsibility": "Developing software solutions: Software Engineers write clean, efficient code to implement features and fix bugs. They participate in code reviews, testing, and deployment processes to ensure the reliability and scalability of the software.",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+    "experiences": "5+ Years in Software Development.",
     "contact_information": {
-      "phone": "01750-00 00 00",
-      "email": "info@gmail.com",
-      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+      "phone": "987-654-3210",
+      "email": "info@netflix.com",
+      "address": "456 Oak St, San Francisco, USA"
     }
   },
   {
     "id": 3,
     "logo": "https://i.postimg.cc/SQ67F6sq/tesla.png",
-    "job_title": "Software Engineer",
+    "job_title": "UX/UI Designer",
     "company_name": "Tesla",
-    "remote_or_onsite": "Onsite",
-    "location": "Dhaka, Bangladesh",
-    "job_type": "Full Time",
-    "salary": "100k-180k",
-    "job_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-    "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-    "educational_requirements": "Bachelor degree to complete any reputation university.",
-    "experiences": "2-3 Years in this field.",
+    "remote_or_onsite": "Remote",
+    "location": "Berlin, Germany",
+    "job_type": "Contract",
+    "salary": "90k-140k",
+    "job_description": "A UX/UI Designer is responsible for creating intuitive and visually appealing user interfaces for software and web applications. They conduct user research, create wireframes and prototypes, and collaborate with developers to implement designs.",
+    "job_responsibility": "Designing user interfaces: UX/UI Designers use design tools like Sketch and Figma to create mockups and prototypes. They conduct usability testing to gather feedback and iterate on designs based on user insights.",
+    "educational_requirements": "Bachelor's degree in Design, Human-Computer Interaction, or a related field.",
+    "experiences": "3-5 Years in UX/UI Design.",
     "contact_information": {
-      "phone": "01750-00 00 00",
-      "email": "info@gmail.com",
-      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+      "phone": "+49 123 456789",
+      "email": "info@tesla.com",
+      "address": "789 Elm St, Berlin, Germany"
     }
   },
   {
     "id": 4,
     "logo": "https://i.postimg.cc/521tcJDs/google.png",
-    "job_title": "Software Engineer",
+    "job_title": "Machine Learning Engineer",
     "company_name": "Google LLC",
     "remote_or_onsite": "Onsite",
-    "location": "Dhaka, Bangladesh",
+    "location": "Mountain View, USA",
     "job_type": "Full Time",
-    "salary": "150k-200k",
-    "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-    "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-    "educational_requirements": "Bachelor degree to complete any reputation university.",
-    "experiences": "2-3 Years in this field.",
+    "salary": "150k-250k",
+    "job_description": "A Machine Learning Engineer is responsible for developing machine learning models and algorithms to solve complex problems. They collect and preprocess data, train models, and evaluate their performance.",
+    "job_responsibility": "Building machine learning models: Machine Learning Engineers use libraries like TensorFlow and PyTorch to build and train models. They work on projects such as natural language processing, computer vision, and recommendation systems.",
+    "educational_requirements": "Master's degree or Ph.D. in Computer Science, Mathematics, or a related field.",
+    "experiences": "5+ Years in Machine Learning.",
     "contact_information": {
-      "phone": "01750-00 00 00",
-      "email": "info@gmail.com",
-      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+      "phone": "123-456-7890",
+      "email": "info@google.com",
+      "address": "123 Main St, Mountain View, USA"
     }
   },
   {
@@ -84,13 +84,13 @@
     "location": "Dhaka, Bangladesh",
     "job_type": "Full Time",
     "salary": "100k-150k",
-    "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-    "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-    "educational_requirements": "Bachelor degree to complete any reputation university.",
-    "experiences": "2-3 Years in this field.",
+    "job_description": "A Technical Database Engineer is responsible for designing, implementing, and maintaining databases to support software applications. They optimize database performance, ensure data integrity, and troubleshoot issues.",
+    "job_responsibility": "Designing database solutions: Technical Database Engineers collaborate with software developers to design database schemas and optimize queries. They monitor database performance, implement backups, and ensure data security.",
+    "educational_requirements": "Bachelor's degree in Computer Science, Information Technology, or a related field.",
+    "experiences": "3-5 Years in Database Administration.",
     "contact_information": {
       "phone": "01750-00 00 00",
-      "email": "info@gmail.com",
+      "email": "info@tesla.com",
       "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
     }
   },
@@ -103,13 +103,13 @@
     "location": "Dhaka, Bangladesh",
     "job_type": "Full Time",
     "salary": "100k-150k",
-    "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-    "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-    "educational_requirements": "Bachelor degree to complete any reputation university.",
-    "experiences": "2-3 Years in this field.",
+    "job_description": "A Senior Product Designer is responsible for leading the design of digital products from concept to delivery. They collaborate with product managers, engineers, and other stakeholders to create user-centric designs.",
+    "job_responsibility": "Leading design initiatives: Senior Product Designers develop design strategies, create design systems, and mentor junior designers. They conduct user research, create prototypes, and iterate on designs based on feedback.",
+    "educational_requirements": "Bachelor's degree in Design, HCI, or a related field.",
+    "experiences": "5+ Years in Product Design.",
     "contact_information": {
       "phone": "01750-00 00 00",
-      "email": "info@gmail.com",
+      "email": "info@netflix.com",
       "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
     }
   }
