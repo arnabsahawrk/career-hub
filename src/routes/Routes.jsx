@@ -4,6 +4,7 @@ import Home from "../pages/Home/Home";
 import ErrorPageLayout from "../layouts/ErrorPageLayout";
 import JobDetails from "../pages/Home/JobDetails";
 import axios from "axios";
+import AppliedJobs from "../pages/AppliedJobs/AppliedJobs";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         path: "/jobDetails/:id",
         element: <JobDetails />,
         loader: () => axios("jobs.json"),
+      },
+      {
+        path: "/appliedJobs",
+        element: <AppliedJobs />,
       },
     ],
   },

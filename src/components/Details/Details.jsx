@@ -4,6 +4,7 @@ import { IoCalendarOutline } from "react-icons/io5";
 import { GoLocation } from "react-icons/go";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
+import saveStorage from "../../utils/localstorage";
 
 const Details = ({ job }) => {
   const {
@@ -88,7 +89,10 @@ const Details = ({ job }) => {
             </li>
           </ul>
         </div>
-        <button className="btn btn-info text-white font-bold w-full">
+        <button
+          onClick={() => saveStorage(job)}
+          className="btn btn-info text-white font-bold w-full"
+        >
           Apply Now
         </button>
       </div>

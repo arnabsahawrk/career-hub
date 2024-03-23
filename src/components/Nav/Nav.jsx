@@ -17,7 +17,7 @@ const Nav = () => {
 
       <li>
         <NavLink
-          to="/app"
+          to="/appliedJobs"
           className={({ isActive }) =>
             `hover:bg-transparent ${isActive ? "text-info" : "text-[#757575]"}`
           }
@@ -28,7 +28,7 @@ const Nav = () => {
 
       <li>
         <NavLink
-          to="/appl"
+          to="/app"
           className={({ isActive }) =>
             `hover:bg-transparent ${isActive ? "text-info" : "text-[#757575]"}`
           }
