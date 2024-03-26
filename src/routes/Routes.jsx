@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       {
         path: "/jobDetails/:id",
         element: <JobDetails />,
-        loader: () => axios("jobs.json"),
+        loader: () => axios("/jobs.json"),
       },
       {
         path: "/appliedJobs",
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       {
         path: "/appliedJobs/jobDetails/:id",
         element: <JobDetails />,
-        loader: () => axios("jobs.json"),
+        loader: () => axios("/jobs.json"),
       },
     ],
   },

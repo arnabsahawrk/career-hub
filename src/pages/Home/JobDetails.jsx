@@ -3,12 +3,10 @@ import OtherBanner from "../../components/Banner/OtherBanner";
 import Details from "../../components/Details/Details";
 
 const JobDetails = () => {
-  const params = useParams();
-  const jobsData = useLoaderData();
+  const { id } = useParams();
+  const { data } = useLoaderData();
 
-  const singleJobData = jobsData.data.find(
-    (job) => job.id === parseInt(params.id)
-  );
+  const singleJobData = data.find((job) => job.id === +id);
 
   return (
     <>
