@@ -9,7 +9,7 @@ const ErrorPageLayout = () => {
 
   useEffect(() => {
     if (loc.state) document.title = loc.state;
-    else document.title = loc.pathname;
+    else document.title = "Error";
   }, [loc.pathname, loc.state]);
   return (
     <>

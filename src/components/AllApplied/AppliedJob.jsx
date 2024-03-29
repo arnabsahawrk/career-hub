@@ -54,7 +54,11 @@ const AppliedJob = ({ job }) => {
         </ul>
       </div>
       <div className="justify-end">
-        <Link to={`jobDetails/${id}`} className="btn btn-info text-white">
+        <Link
+          to={`jobDetails/${id}`}
+          state={job_title}
+          className="btn btn-info text-white"
+        >
           View Details
         </Link>
       </div>

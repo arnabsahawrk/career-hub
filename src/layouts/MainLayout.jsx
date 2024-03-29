@@ -7,8 +7,13 @@ const MainLayout = () => {
   const loc = useLocation();
 
   useEffect(() => {
-    if (loc.state) document.title = loc.state;
-    else document.title = loc.pathname;
+    if (loc.pathname === "/") {
+      document.title = "Home";
+    } else if (loc.state) {
+      document.title = loc.state;
+    } else {
+      document.title = "Career Hub";
+    }
   }, [loc.pathname, loc.state]);
 
   return (
