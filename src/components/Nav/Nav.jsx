@@ -7,6 +7,7 @@ const Nav = () => {
       <li>
         <NavLink
           to="/"
+          state={"Home"}
           className={({ isActive }) =>
             `hover:bg-transparent ${isActive ? "text-info" : "text-[#757575]"}`
           }
@@ -18,6 +19,7 @@ const Nav = () => {
       <li>
         <NavLink
           to="/appliedJobs"
+          state={"Applied Jobs"}
           className={({ isActive }) =>
             `hover:bg-transparent ${isActive ? "text-info" : "text-[#757575]"}`
           }
@@ -28,7 +30,8 @@ const Nav = () => {
 
       <li>
         <NavLink
-          to="/app"
+          to="/blogs"
+          state={"Blogs"}
           className={({ isActive }) =>
             `hover:bg-transparent ${isActive ? "text-info" : "text-[#757575]"}`
           }

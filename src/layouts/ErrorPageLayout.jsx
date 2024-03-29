@@ -1,8 +1,16 @@
+import { useLocation } from "react-router-dom";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
 import Footer from "../components/Footer/Footer";
 import Nav from "../components/Nav/Nav";
+import { useEffect } from "react";
 
 const ErrorPageLayout = () => {
+  const loc = useLocation();
+
+  useEffect(() => {
+    if (loc.state) document.title = loc.state;
+    else document.title = loc.pathname;
+  }, [loc.pathname, loc.state]);
   return (
     <>
       <header

@@ -50,7 +50,11 @@ const Feature = ({ feature }) => {
           Salary: {salary}
         </li>
       </ul>
-      <Link to={`jobDetails/${id}`} className="btn btn-info text-white">
+      <Link
+        to={`jobDetails/${id}`}
+        state={job_title}
+        className="btn btn-info text-white"
+      >
         View Details
       </Link>
     </div>

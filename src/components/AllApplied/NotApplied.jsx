@@ -10,7 +10,7 @@ const NotApplied = () => {
           alt="Not Found"
         />
         <p className="text-3xl">You Have Not Applied For Any Job Yet.</p>
-        <Link to="/">
+        <Link to="/" state={"Home"}>
           <button
             rel="noopener noreferrer"
             className="btn btn-info text-white font-semibold"

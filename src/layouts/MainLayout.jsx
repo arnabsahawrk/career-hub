@@ -1,8 +1,16 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Footer from "../components/Footer/Footer";
 import Nav from "../components/Nav/Nav";
+import { useEffect } from "react";
 
 const MainLayout = () => {
+  const loc = useLocation();
+
+  useEffect(() => {
+    if (loc.state) document.title = loc.state;
+    else document.title = loc.pathname;
+  }, [loc.pathname, loc.state]);
+
   return (
     <>
       <header
